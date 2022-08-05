@@ -12,7 +12,7 @@
           "AttributeType" : "S"
         } ],
         "KeySchema": [
-          { "AttributeName": {"Ref" : "HashKeyElementName"}, "KeyType": "HASH" }
+          { "AttributeName": "PrimaryKey", "KeyType": "HASH" }
         ],
         "ProvisionedThroughput" : {
           "ReadCapacityUnits" : "5",
